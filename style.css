@@ -1,0 +1,115 @@
+.mainText{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 60px; 
+}
+.box{
+    border: solid;
+    background-color: gray;
+    color: black;
+}
+.box3{
+    border: solid;
+    background-color: gray;
+    color: black;
+}
+div{
+    display: block;
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    display: block;
+}
+.text{
+    margin: 13px;
+    display: block;
+    font-family: Roboto;
+    font-size: 20px;
+}
+.container{
+    height: 100%;
+}
+.smallerBox{
+    right: 0;
+    top: 0;
+    background-color: #d59898;
+    border-bottom: solid;
+    border-left: solid;
+    width: 30%;
+    float: right;
+}
+.smallerBox1{
+    right: 0;
+    top: 0;
+    background-color: #c14543;
+    border-bottom: solid;
+    border-left: solid;
+    width: 30%;
+    float: right;
+}
+.smallerBox2{
+    right: 0;
+    top: 0;
+    background-color: #e5d198;
+    border-bottom: solid;
+    border-left: solid;
+    width: 30%;
+    float: right;
+}
+.smallerText{
+    text-align: center;
+    font-weight: bold;
+    padding: 10%
+}
+.smallerText1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10%
+}
+
+
+@media (min-width: 992px){
+    .box{
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+    }
+    .box3{
+    height: 100%;
+    width: 30%;
+    display: inline-block;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .box{
+    width: 48%;
+    margin-left: 1%;
+    display: inline-block;
+    }
+    .box3{
+    margin-top: 1%;
+    width: 100%;
+    display: inline-block;
+    }
+    
+}
+
+@media (max-width: 767px){
+    .box{
+        margin-top: 3%;
+    height: 100%;
+    margin: 10%
+    width: 49%;
+    display: inline-block;
+    }
+    .box3{
+        margin-top: 3%;
+    margin: 10%
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    }
+}
